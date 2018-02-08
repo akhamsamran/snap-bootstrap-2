@@ -23,7 +23,7 @@
 	<body>
 		<header>
 		<div class="container-flex">
-		<nav class="navbar navbar-expand-lg navbar-light bg-dark text-white">
+		<nav class="navbar navbar-expand-lg navbar-light bg-dark text-white border rounded">
 			<a class="navbar-brand" href=""><img src="images/rubberducky.png" alt="ducky"/></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -41,17 +41,29 @@
 			</header>
 		<main class="full">
 			<div class="container-flex">
+				<div class="container">
+					<div class="row centered m-2">
+						<div class="col-12">
 				<h1>Welcome to my Ducky website!</h1>
-
+						</div>
+					</div>
 		</div>
+			</div>
 		</main>
 		<footer>
 
+
+			<!--footer (should be pushed to bottom of page)-->
+			<footer>
 				<!-- use a navbar as footer (text-center doesn't seem to work)-->
-				<nav class="navbar navbar-light bg-dark text-white navbar-custom d-inline-block align-bottom">
+				<nav class="navbar navbar-light bg-dark text-white navbar-custom">
 					<a class="navbar-brand" href="">
-						<img src="images/rubberducky.png" alt="logo"  alt="rubber ducky">
-						All Hail Rubber Ducky!
+						<img src="images/rubberducky.png" alt="ducky"  class="d-inline-block align-top" alt="ducky logo">
+						Hail Rubber Ducky!</a>
+				</nav>
+
+
+			</footer>
 
 
 		</footer>
