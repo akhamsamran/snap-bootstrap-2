@@ -22,9 +22,9 @@
 
 	<body>
 		<header>
-		<div class="container">
+		<div class="container-flex">
 		<nav class="navbar navbar-expand-lg navbar-light bg-dark text-white">
-			<a class="navbar-brand" href="#">Navbar</a>
+			<a class="navbar-brand" href=""><img src="images/rubberducky.png" alt="ducky"/></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -39,18 +39,24 @@
 		</nav>
 		</div>
 			</header>
-		<main>
-			<div class="container">
+		<main class="full">
+			<div class="container-flex">
+				<h1>Welcome to my Ducky website!</h1>
 
 		</div>
 		</main>
 		<footer>
-			<div class="container">
 
-		</div>
+				<!-- use a navbar as footer (text-center doesn't seem to work)-->
+				<nav class="navbar navbar-light bg-dark text-white navbar-custom d-inline-block align-bottom">
+					<a class="navbar-brand" href="">
+						<img src="images/rubberducky.png" alt="logo"  alt="rubber ducky">
+						All Hail Rubber Ducky!
+
+
 		</footer>
 
-		<h1></h1>
+
 
 	</body>
 
